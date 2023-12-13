@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function () {
   
       if (isLoginSuccessful) {
         // Si la autenticación es exitosa, redirige al usuario a index.html
-        window.location.href = "index.html";
+        window.location.href = "pagina.html";
       } else {
         // Muestra un mensaje de error en caso de autenticación fallida
         alert("Nombre de usuario o contraseña incorrectos");
